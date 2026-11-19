@@ -3,7 +3,7 @@
  * Registra un nuevo libro en la base de datos a partir de los datos recibidos.
  *
  * @param array $datosFormulario Datos enviados por POST (titulo, autor, isbn)
- * @return bool True si el libro se guardó correctamente, false en caso contrario
+ * @return bool True si el libro se guardó correctamente, false en caso de que no
  */
 function registrarLibro(array $datosFormulario): bool
 {
